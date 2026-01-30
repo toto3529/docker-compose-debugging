@@ -1,4 +1,4 @@
-# Exercice 1 — WordPress + MySQL
+# Exercice 1 - WordPress + MySQL
 
 ## Contexte
 
