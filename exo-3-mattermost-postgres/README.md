@@ -1,4 +1,4 @@
-# Exercice 3 — Mattermost + PostgreSQL
+# Exercice 3 - Mattermost + PostgreSQL
 
 ---
 
