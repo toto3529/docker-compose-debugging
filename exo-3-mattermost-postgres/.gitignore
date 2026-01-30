@@ -1,0 +1,12 @@
+# Docker volumes
+mattermost_data
+mattermost_logs
+mattermost_plugins
+postgres_data
+
+# Environment variables
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
