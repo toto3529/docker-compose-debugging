@@ -12,6 +12,8 @@ Déployer un stack WordPress pour l’équipe marketing. Le `docker-compose.yml`
 
 ## Problèmes rencontrés
 
+Les dysfonctionnements ont été identifiés après analyse des logs Docker à l’aide des commandes `docker compose logs` et `docker compose logs mysql`, révélant des erreurs d’initialisation MySQL ainsi que des tentatives de connexion prématurées depuis WordPress.
+
 1. **MySQL ne démarrait pas** car la configuration ne définissait pas de mot de passe root.
    - L’image officielle `mysql:8.0` exige une initialisation correcte (ex: `MYSQL_ROOT_PASSWORD`).
 2. **Risque de connexion WordPress ↔ MySQL instable** : `depends_on` ne garantit pas que MySQL soit prêt (uniquement l’ordre de démarrage).
