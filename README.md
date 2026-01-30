@@ -1,4 +1,4 @@
-# Docker Compose Debugging — Phase 5
+# Docker Compose Debugging - Phase 5
 
 ---
 
