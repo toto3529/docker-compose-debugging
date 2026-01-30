@@ -1,0 +1,10 @@
+# Environment variables
+.env
+
+# Docker volumes
+mysql_data
+wordpress_data
+
+# OS / Editor
+.DS_Store
+.vscode/
