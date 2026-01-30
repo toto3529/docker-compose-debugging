@@ -1,0 +1,9 @@
+# Docker volumes
+elasticsearch_data
+
+# Environment variables
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/
