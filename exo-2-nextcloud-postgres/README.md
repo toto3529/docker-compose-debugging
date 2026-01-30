@@ -1,4 +1,4 @@
-# Exercice 2 — Nextcloud + PostgreSQL (+ Redis)
+# Exercice 2 - Nextcloud + PostgreSQL (+ Redis)
 
 ## Contexte
 
